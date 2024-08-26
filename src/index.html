@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>College Information</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>College Information</h1>
+    <input
+      type="text"
+      id="searchInput"
+      placeholder="Search for your preferred college"
+    />
+
+    <div>
+      <label for="sortSelect">Sort by:</label>
+      <select id="sortSelect">
+        <option value="rankAsc">Collegedunia Rating (Asc)</option>
+        <option value="rankDesc">Collegedunia Rating (Desc)</option>
+        <option value="feeAsc">Course Fee (Asc)</option>
+        <option value="feeDesc">Course Fee (Desc)</option>
+        <option value="reviewAsc">User Review (Asc)</option>
+        <option value="reviewDesc">User Review (Desc)</option>
+      </select>
+    </div>
+
+    <table id="collegeTable">
+      <thead>
+        <tr>
+          <th>CD Rank</th>
+          <th>Colleges</th>
+          <th>Course Fee</th>
+          <th>Placement</th>
+          <th>User Reviews</th>
+          <th>Ranking</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <div class="contact-info">
+      <h2>Created By Aman Prakash (2K20/EC/024)</h2>
+      <p>Mail: amanprakash_ec20b1_37@dtu.ac.in</p>
+      <p>Ph no: +91 9205020442</p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
